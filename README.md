@@ -1,8 +1,8 @@
-### Spread of COVID-19 from Patient Zero
+# Spread of COVID-19 from Patient Zero
 
 ![](https://cdn-images-1.medium.com/max/800/1*UimKySbctrAdEbx1QoeGDg.png)
 
-### Introduction
+## Introduction
 
 Coronavirus or COVID-19 is highly, highly infectious. According to the New York Times Influenza has an R0 (R naught) value of about 1.3.
 
@@ -15,6 +15,7 @@ According to research published in Oxford Journal of Travel Medicine. COVID-19 h
 
 So if we take an R0 of 3 we can extrapolate that Patient Zero infects 3 people, those 3 people infect 3 more people and so on and on and on....within just 10 exponents Patient Zero has infected 59,049 people!
 
+## Code
 
 ```
 import matplotlib.pyplot as plt
