@@ -16,7 +16,8 @@ According to research published in Oxford Journal of Travel Medicine. COVID-19 h
 So if we take an R0 of 3 we can extrapolate that Patient Zero infects 3 people, those 3 people infect 3 more people and so on and on and on....within just 10 exponents Patient Zero has infected 59,049 people!
 
 
-```import matplotlib.pyplot as plt
+```
+import matplotlib.pyplot as plt
 import networkx as nx
 G = nx.balanced_tree(3, 10)
 pos = graphviz_layout(G, prog='twopi')
@@ -24,4 +25,4 @@ plt.figure(figsize=(10, 10))
 nx.draw(G, pos, node_size=20, alpha=0.5, node_color="red", with_labels=False)
 plt.axis('equal')
 plt.show() 
-
+```
